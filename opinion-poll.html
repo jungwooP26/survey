@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Vote</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+        }
+        .home-link {
+            display: inline-block;
+            margin-top: 30px;
+            font-size: 18px;
+            color: red;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h3 style="color: blue;">Select your favorite fruit.</h3>
+    <form method="post" action="vote.jsp">
+        <input type="radio" name="fruit" value="Apple" required> Apple<br>
+        <input type="radio" name="fruit" value="Grape"> Grape<br>
+        <input type="radio" name="fruit" value="Strawberry"> Strawberry<br>
+        <input type="radio" name="fruit" value="Melon"> Melon<br><br>
+        <input type="submit" value="VOTE">
+    </form>
+
+    <a class="home-link" href="opinion.html">Home</a>
+</body>
+</html>
